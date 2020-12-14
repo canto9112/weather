@@ -3,7 +3,7 @@ import requests
 
 citys = ['Лондон','Череповец','Шереметьево']
 
-payload = {"nTqM&lang":"ru"}
+payload = {"lang":"ru","n":"","T":"","q":"","m":""}
 
 url_template = 'http://wttr.in/{}'
 for town in citys:
